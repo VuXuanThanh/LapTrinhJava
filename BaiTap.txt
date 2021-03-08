@@ -3,4 +3,4 @@ Lap trinh Java
 2. Lập trình hướng đối tượng
 3. Thiết kế giao diện
 4. Lâp trình bất đồng bộ
-5. Lập trình ASP.NET core MVC
+5. Lập trình ASP.NET core MVC Ahihi
