@@ -1,2 +1,4 @@
 Lap trinh Java
 1. Sử dụng tập hợp các collection
+2. Lập trình hướng đối tượng
+3. Thiết kế giao diện
