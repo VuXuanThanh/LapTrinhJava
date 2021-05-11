@@ -20,6 +20,7 @@ public class MainClass {
         
         ArrayList<NhanVienFullTime> list = new ArrayList<>();
         ArrayList<NhanVienPartTime> list1 = new ArrayList<>();
+        //
         
         do{
             System.out.println("---------------");
