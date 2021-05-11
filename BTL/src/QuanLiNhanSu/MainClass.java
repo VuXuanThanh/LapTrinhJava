@@ -5,6 +5,8 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -20,7 +22,10 @@ public class MainClass {
         
         ArrayList<NhanVienFullTime> list = new ArrayList<>();
         ArrayList<NhanVienPartTime> list1 = new ArrayList<>();
-        //
+        
+        
+        // thêm collection
+       HashMap<Integer, NhanVienFullTime> lhm3 = new HashMap<>();
         
         do{
             System.out.println("---------------");
