@@ -17,7 +17,10 @@ public class MainClass {
         int n,m, choose;
         LinkedHashMap<Integer, NhanVienFullTime> lhm = new LinkedHashMap<>();
         LinkedHashMap<Integer,NhanVienPartTime> lhm1 = new LinkedHashMap<>();
-
+        
+        ArrayList<NhanVienFullTime> list = new ArrayList<>();
+        ArrayList<NhanVienPartTime> list1 = new ArrayList<>();
+        
         do{
             System.out.println("---------------");
             showMenu();
