@@ -8,6 +8,7 @@ public class NhanVienFullTime extends NhanVien {
     private int ngayLamThem; // Ngày làm thêm của nhân viên
     private int loaiChucVu; // Chức vụ là lính hay sếpt
     private long thuong;
+    private static int soNgayNghiToiDa=5;
 
     public long getThuong() {
         return thuong;
