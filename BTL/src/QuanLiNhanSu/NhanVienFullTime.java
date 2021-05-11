@@ -6,8 +6,18 @@ public class NhanVienFullTime extends NhanVien {
 
 
     private int ngayLamThem; // Ngày làm thêm của nhân viên
-    private int loaiChucVu; // Chức vụ là lính hay sếp
+    private int loaiChucVu; // Chức vụ là lính hay sếpt
+    private long thuong;
 
+    public long getThuong() {
+        return thuong;
+    }
+
+    public void setThuong(long thuong) {
+        this.thuong = thuong;
+    }
+
+    
     public NhanVienFullTime() {
     }
 
