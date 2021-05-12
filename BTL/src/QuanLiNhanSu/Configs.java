@@ -8,6 +8,7 @@ public class Configs {
     public static final int NHAN_VIEN_PHOCHUTICH=4;
     public static final int NHAN_VIEN_TOTRUONG=5;
     public static final int NHAN_VIEN_THUONG= 6;
+    public static final int LapTrinhVien= 6;
 
 
 
