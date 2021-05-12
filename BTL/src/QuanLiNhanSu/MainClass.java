@@ -16,7 +16,8 @@ import java.util.Set;
 public class MainClass {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int n,m, choose;
+        int n,m, choose = 1;
+        
         LinkedHashMap<Integer, NhanVienFullTime> lhm = new LinkedHashMap<>();
         LinkedHashMap<Integer,NhanVienPartTime> lhm1 = new LinkedHashMap<>();
         
