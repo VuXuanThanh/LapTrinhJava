@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class NhanVienPartTime extends NhanVien {
     private int gioLamViec; // Tổng số giờ làm việc của nhân viên
     private int soNgay;
+    private long tien;
     public NhanVienPartTime(String tenNhanVien, int gioLamViec) {
         this.tenNhanVien = tenNhanVien;
         this.gioLamViec = gioLamViec;
@@ -100,5 +101,36 @@ public class NhanVienPartTime extends NhanVien {
         }
         return false;
     }
+
+    @Override
+    public int hashCode() {
+        int hash = 5;
+        hash = 59 * hash + this.gioLamViec;
+        hash = 59 * hash + this.soNgay;
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final NhanVienPartTime other = (NhanVienPartTime) obj;
+        if (this.gioLamViec != other.gioLamViec) {
+            return false;
+        }
+        if (this.soNgay != other.soNgay) {
+            return false;
+        }
+        return true;
+    }
+    
+    
 
 }
